@@ -15,16 +15,18 @@
 <body>
 
 	<header class="header">
-		<a><img class="header__logo" src="./image/projeco-logo.svg" alt=""></a>
-		<div class="mainText">
-			<h1 class="header__title">PARTNER WITH KONSTUCT</h1>
-			<p class="header__suptitle">An award-winning construction management firm</p>
-		</div>
-		<div class="scroll">
-			<h3 class="scroll__title">SCROLL DOWN</h3>
-			<a class="arrow-down animate__animated animate__fadeInDown animate__infinite infinite animate__slow">
-				<img src="./image/arrows-down.svg" alt="">
-			</a>
+		<div class="header-parallax__inner">
+			<a><img class="header__logo" src="./image/projeco-logo.svg" alt=""></a>
+			<div class="mainText">
+				<h1 class="header__title">PARTNER WITH KONSTUCT</h1>
+				<p class="header__suptitle">An award-winning construction management firm</p>
+			</div>
+			<div class="scroll">
+				<h3 class="scroll__title">SCROLL DOWN</h3>
+				<a class="arrow-down animate__animated animate__fadeInDown animate__infinite infinite animate__slow">
+					<img src="./image/arrows-down.svg" alt="">
+				</a>
+			</div>
 		</div>
 	</header>
 
@@ -119,8 +121,10 @@
 			<div class="footer-top">
 				<form class="footer-form">
 					<label for="search" class="search-label">Newsletter Signup</label>
-					<input type="text" class="search" placeholder="test@youremail.com">
-					<button class="search-btn page-button">SIGNUP</button>
+					<div class="input__inner">
+						<input type="text" class="search" placeholder="test@youremail.com">
+						<button class="search-btn page-button">SIGNUP</button>
+					</div>
 				</form>
 			</div>
 
@@ -190,6 +194,9 @@
 		</div>
 	</footer>
 
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
 
 </html>
